@@ -1,3 +1,24 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+@font-face {
+  font-family: "Roboto-Black";
+  src: url(Roboto/Roboto-Black.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url(Roboto/Roboto-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Roboto-LightItalic";
+  src: url(Roboto/Roboto-LightItalic.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Roboto-BoldItalic";
+  src: url(Roboto/Roboto-BlackItalic.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Roboto-Light";
+  src: url(Roboto/Roboto-Light.ttf) format("truetype");
+}
 /*Variables */
 /* Mixin's */
 body {
@@ -8,7 +29,6 @@ body {
   align-items: center;
   text-align: center;
   font-size: xx-large;
-  margin-top: 100px;
 }
 
 .wrapper {
@@ -52,4 +72,12 @@ button:hover {
 
 .play {
   display: none;
+}
+
+h6 {
+  font-family: "Roboto-Light";
+  font-size: 48px;
+  font-weight: 800;
+  color: blue;
+  margin-bottom: auto;
 }/*# sourceMappingURL=style.css.map */
