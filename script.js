@@ -7,7 +7,9 @@ window.onload = function () {
         appendTens = document.getElementById("tens"),
         appendSeconds = document.getElementById("seconds"),
         appendMinutes = document.getElementById("minutes"),
+        appendMinutesColon = document.getElementById("min"),
         appendHours = document.getElementById("hours"),
+        appendHoursColon = document.getElementById("hour"),
         buttonStart = document.getElementById("button-start"),
         buttonStop = document.getElementById("button-stop"),
         buttonReset = document.getElementById("button-reset"),
@@ -56,6 +58,8 @@ window.onload = function () {
             }
 
             if(seconds > 59){
+                appendMinutes.style.display="unset";
+                appendMinutesColon.style.display="unset";
                 minutes++;
                 appendMinutes.innerHTML = "0"+ minutes;
                 seconds = 0;
@@ -65,6 +69,8 @@ window.onload = function () {
                 appendMinutes.innerHTML = minutes;
             }
             if (minutes > 59){
+                appendHours.style.display="unset";
+                appendHoursColon.style.display="unset";
                 hours++;
                 appendHours.innerHTML = "0" + hours;
                 minutes = 0;

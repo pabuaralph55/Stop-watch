@@ -29,6 +29,7 @@ body {
   align-items: center;
   text-align: center;
   font-size: xx-large;
+  margin-top: 100px;
 }
 
 .wrapper {
@@ -79,5 +80,8 @@ h6 {
   font-size: 48px;
   font-weight: 800;
   color: blue;
-  margin-bottom: auto;
+}
+
+.hours, .minutes {
+  display: none;
 }/*# sourceMappingURL=style.css.map */
