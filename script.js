@@ -30,12 +30,18 @@ window.onload = function () {
 
         buttonReset.onclick = function() {
             clearInterval(Interval);
-            tens ="00";
+            tens = "00";
             seconds = "00";
-            minutes="00";
-            hours="00";
+            minutes= "00";
+            hours= "00";
             appendTens.innerHTML = tens;
             appendSeconds.innerHTML = seconds;
+            appendMinutes.innerHTML = minutes;
+            appendHours.innerHTML = hours;
+            appendMinutes.style.display="none";
+            appendMinutesColon.style.display="none";
+            appendHours.style.display="none";
+            appendHoursColon.style.display="none";
         }
 
         function startTimer () {

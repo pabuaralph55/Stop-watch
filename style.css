@@ -46,7 +46,7 @@ h1, h2, h3 {
   text-transform: uppercase;
 }
 
-#seconds, #tens, #minutes, #hours {
+#seconds, #tens, #minutes, #hours, #hour, #min, #sec {
   font-size: 5em;
 }
 
